@@ -6,5 +6,3 @@ def isPalindrome(self, s : str) -> bool :
     s = re.sub('[^a-z0-9]','',s)
 
     return s == s[::-1] # 슬라이싱
-
-a = 'man nam'
