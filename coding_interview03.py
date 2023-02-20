@@ -10,5 +10,6 @@ def isPalidrome(self,s:str) -> bool:
     s = re.sub('[^a-z0-9]','',s)
 
 
-    return s == s[::-1] # 슬라이싱 [::-1]은 뒤집은 것
+    return s == s[::-1] # 슬라이싱 [::-1]은 뒤집은 것, [::2]는 2칸씩 앞으로 이동
+
 
