@@ -3,6 +3,8 @@
 # nums = [2,7,11,15], target=9
 # [0,1]
 
+# brute_fore
+
 from typing import List
 
 
